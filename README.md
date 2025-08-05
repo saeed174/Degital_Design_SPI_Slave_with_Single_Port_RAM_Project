@@ -88,10 +88,14 @@ To simulate this design:
   | READ_DATA  |-----------------------------------------------------------------------------------------+
   +------------+
 
+---
+
 ## 🛠️ Requirements
 Verilog HDL simulator (e.g., ModelSim, Icarus Verilog)
 
 Optional: FPGA toolchain (Vivado, Quartus) for hardware testing
+
+---
 
 ##🧠 Notes
 SPI Mode: Mode 0 (CPOL=0, CPHA=0) assumed
@@ -100,8 +104,12 @@ MISO tristated during IDLE and CHK_CMD to avoid bus contention
 
 RAM responds to rx_valid and tx_valid flags for memory interaction
 
+---
+
 ##📜 License
 This project is open-source and licensed under the MIT License.
+
+---
 
 ##🙋‍♂️ Author
 saeed174
