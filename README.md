@@ -46,8 +46,7 @@ The entry point for this design is the `SPI_Wrapper` module, which integrates:
 ├── RAM.v # Simple RAM memory
 ├── README.md # Project documentation
 نسخ
-تحرير
-
+تحري
 ---
 
 ## 🧪 Simulation & Testing
@@ -57,6 +56,33 @@ To simulate this design:
 1. ✅ Create a testbench for `SPI_Wrapper.v`
 2. 🧩 Stimulate SPI input sequences (`MOSI`, `SS_n`)
 3. 📤 Observe `MISO`, memory contents, and FSM state transitions
+
+
+---
+
+## 🛠️ Requirements
+Verilog HDL simulator (e.g., ModelSim, Icarus Verilog)
+
+Optional: FPGA toolchain (Vivado, Quartus) for hardware testing
+
+---
+
+##🧠 Notes
+SPI Mode: Mode 0 (CPOL=0, CPHA=0) assumed
+
+MISO tristated during IDLE and CHK_CMD to avoid bus contention
+
+RAM responds to rx_valid and tx_valid flags for memory interaction
+
+---
+
+##📜 License
+This project is open-source and licensed under the MIT License.
+
+---
+
+##🙋‍♂️ Author
+saeed174
 
 
 ---
@@ -86,30 +112,3 @@ To simulate this design:
   +-----+------+                                                                                         |
   | READ_DATA  |-----------------------------------------------------------------------------------------+
   +------------+
-```text
----
-
-## 🛠️ Requirements
-Verilog HDL simulator (e.g., ModelSim, Icarus Verilog)
-
-Optional: FPGA toolchain (Vivado, Quartus) for hardware testing
-
----
-
-##🧠 Notes
-SPI Mode: Mode 0 (CPOL=0, CPHA=0) assumed
-
-MISO tristated during IDLE and CHK_CMD to avoid bus contention
-
-RAM responds to rx_valid and tx_valid flags for memory interaction
-
----
-
-##📜 License
-This project is open-source and licensed under the MIT License.
-
----
-
-##🙋‍♂️ Author
-saeed174
-
