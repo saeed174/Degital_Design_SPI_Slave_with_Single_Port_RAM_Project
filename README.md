@@ -39,17 +39,17 @@ The entry point for this design is the `SPI_Wrapper` module, which integrates:
 ---
 
 ## 📁 File Structure
-  ├── SPI_Wrapper.v          # 🔝 Top-level wrapper module
+    ├── SPI_Wrapper.v          # 🔝 Top-level wrapper module
   
-  ├── SPI_Slave.v            # SPI slave controller
+    ├── SPI_Slave.v            # SPI slave controller
   
-  ├── Serial_to_Parallel.v   # Serial-to-parallel converter
+    ├── Serial_to_Parallel.v   # Serial-to-parallel converter
   
-  ├── parallel_to_serial.v   # Parallel-to-serial converter
+    ├── parallel_to_serial.v   # Parallel-to-serial converter
   
-  ├── RAM.v                  # Simple RAM memory
+    ├── RAM.v                  # Simple RAM memory
   
-  ├── README.md              # Project documentation
+    ├── README.md              # Project documentation
 
 ---
 
