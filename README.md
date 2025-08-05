@@ -39,14 +39,14 @@ The entry point for this design is the `SPI_Wrapper` module, which integrates:
 ---
 
 ## 📁 File Structure
-├── SPI_Wrapper.v # 🔝 Top-level wrapper module
-├── SPI_Slave.v # SPI slave controller
-├── Serial_to_Parallel.v # Serial-to-parallel converter
-├── parallel_to_serial.v # Parallel-to-serial converter
-├── RAM.v # Simple RAM memory
-├── README.md # Project documentation
+  ├── SPI_Wrapper.v # 🔝 Top-level wrapper module
+  ├── SPI_Slave.v # SPI slave controller
+  ├── Serial_to_Parallel.v # Serial-to-parallel converter
+  ├── parallel_to_serial.v # Parallel-to-serial converter
+  ├── RAM.v # Simple RAM memory
+  ├── README.md # Project documentation
 نسخ
-تحري
+تحر
 ---
 
 ## 🧪 Simulation & Testing
@@ -67,7 +67,7 @@ Optional: FPGA toolchain (Vivado, Quartus) for hardware testing
 
 ---
 
-##🧠 Notes
+## 🧠 Notes
 SPI Mode: Mode 0 (CPOL=0, CPHA=0) assumed
 
 MISO tristated during IDLE and CHK_CMD to avoid bus contention
@@ -76,12 +76,12 @@ RAM responds to rx_valid and tx_valid flags for memory interaction
 
 ---
 
-##📜 License
+## 📜 License
 This project is open-source and licensed under the MIT License.
 
 ---
 
-##🙋‍♂️ Author
+## 🙋‍♂️ Author
 saeed174
 
 
