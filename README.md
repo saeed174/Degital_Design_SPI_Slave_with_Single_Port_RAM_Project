@@ -58,7 +58,6 @@ To simulate this design:
 2. 🧩 Stimulate SPI input sequences (`MOSI`, `SS_n`)
 3. 📤 Observe `MISO`, memory contents, and FSM state transitions
 
-> Need a testbench file? Let me know — I can generate one for you.
 
 ---
 
@@ -87,7 +86,7 @@ To simulate this design:
   +-----+------+                                                                                         |
   | READ_DATA  |-----------------------------------------------------------------------------------------+
   +------------+
-
+```text
 ---
 
 ## 🛠️ Requirements
