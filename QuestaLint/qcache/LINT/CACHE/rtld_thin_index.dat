@@ -1,0 +1,10 @@
+>8
+v366
+t4
+c5
+#0 p0 @Serial_to_Parallel_1323019720
+#1 p777 @parallel_to_serial_653849815
+#2 p1554 @SPI_Slave_305389387
+#3 p2944 @RAM_1843997208
+#4 p4159 @SPI_Wrapper
+<8

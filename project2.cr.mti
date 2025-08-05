@@ -1,0 +1,29 @@
+F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/RAM.v {1 {vlog -work work -vopt -stats=none F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/RAM.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/SPI_Slave.v {1 {vlog -work work -vopt -stats=none F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/SPI_Slave.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_Slave
+
+Top level modules:
+	SPI_Slave
+
+} {} {}} F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/Serial_to_Parallel.v {1 {vlog -work work -vopt -stats=none F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/Serial_to_Parallel.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Serial_to_Parallel
+
+Top level modules:
+	Serial_to_Parallel
+
+} {} {}} F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/parallel_to_serial.v {1 {vlog -work work -vopt -stats=none F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/parallel_to_serial.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module parallel_to_serial
+
+Top level modules:
+	parallel_to_serial
+
+} {} {}}

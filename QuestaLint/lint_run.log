@@ -1,0 +1,178 @@
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Aug  2 17:34:34 2025 by DELL on DESKTOP-88UJFGM
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Aug  2 17:34:08 2025 by DELL on DESKTOP-88UJFGM
+
+
+Command: netlist elaborate
+Command arguments:
+    -zdb
+      D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint/qcache/DB/zdb_1
+    -tool lint
+    -d SPI_Wrapper
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Elaborating Design...
+Reading MTI mapping for library mapping
+Writing all MTI mappings to vmap output ...
+
+Top level modules:
+	SPI_Wrapper
+
+Analyzing design...
+-- Loading module z0in_work.SPI_Wrapper
+
+Performing 103 Lint Checks
+=============================
+
+Lint Stage 1 of 5 - Pre Design Elaboration (4 checks)
+------------------------------------------------------
+-- Loading module z0in_work.SPI_Slave
+-- Loading module z0in_work.Serial_to_Parallel
+-- Loading module z0in_work.parallel_to_serial
+-- Loading module z0in_work.RAM
+Optimizing 5 design-units (inlining 0/5 module instances):
+-- Optimizing module z0in_work.Serial_to_Parallel(fast)
+Lint Stage-1 100% complete [Total Progress -   7%]
+
+Lint Stage 2 of 5 - Design Elaboration (66 checks)
+---------------------------------------------------
+-- Optimizing module z0in_work.parallel_to_serial(fast)
+Lint Stage-2  20% complete (1 out of 5 modules checked) [Total Progress -   8%]
+-- Optimizing module z0in_work.SPI_Slave(fast)
+Lint Stage-2  40% complete (2 out of 5 modules checked) [Total Progress -  12%]
+-- Optimizing module z0in_work.RAM(fast)
+Lint Stage-2  60% complete (3 out of 5 modules checked) [Total Progress -  15%]
+-- Optimizing module z0in_work.SPI_Wrapper(fast)
+Lint Stage-2  80% complete (4 out of 5 modules checked) [Total Progress -  19%]
+Optimized design name is zi_opt_def_315784294_1
+Lint Stage-2 100% complete (5 out of 5 modules checked) [Total Progress -  23%]
+End of log Sat Aug  2 17:34:15 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Aug  2 17:34:17 2025 by DELL on DESKTOP-88UJFGM
+
+
+Command: netlist create
+Command arguments:
+    -zdb
+      D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint/qcache/DB/zdb_1
+    -tool lint
+    -d SPI_Wrapper
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Synthesizing netlist...
+
+Lint Stage 3 of 5 - Post Design Elaboration (17 checks)
+--------------------------------------------------------
+Lint Stage-3  24% complete [Total Progress -  27%]
+Lint Stage-3  47% complete [Total Progress -  29%]
+Lint Stage-3  71% complete [Total Progress -  32%]
+Lint Stage-3  94% complete [Total Progress -  34%]
+Lint Stage-3 100% complete [Total Progress -  35%]
+Analyzing designs.
+Elaborating module 'Serial_to_Parallel'.
+Elaborating module 'parallel_to_serial'.
+Elaborating module 'SPI_Slave'.
+Warning : Incomplete sensitivity-list.  Variable 'MOSI', Module 'SPI_Slave', File 'D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/SPI_Slave.v', Line 32.  [elaboration-702]
+        : Possible RTL-to-gate mismatch. Elaboration will continue.
+Warning : Incomplete sensitivity-list.  Variable 'addr_or_data', Module 'SPI_Slave', File 'D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/SPI_Slave.v', Line 32.  [elaboration-702]
+        : Possible RTL-to-gate mismatch. Elaboration will continue.
+Elaborating module 'RAM'.
+Elaborating module 'SPI_Wrapper'.
+
+Lint Stage 4 of 5 - Design Synthesis (1 checks)
+------------------------------------------------
+Lint Stage-4 100% complete [Total Progress -  75%]
+
+Lint Stage 5 of 5 - Post Design Synthesis (15 checks)
+------------------------------------------------------
+Lint Stage-5  20% complete [Total Progress -  88%]
+Lint Stage-5  40% complete [Total Progress -  91%]
+Lint Stage-5  60% complete [Total Progress -  94%]
+Lint Stage-5  80% complete [Total Progress -  97%]
+Lint Stage-5 100% complete [Total Progress - 100%]
+
+Lint Checking Completed
+##Time Taken (Synthesis) = 1666.000000 ticks = 1.666000 secs
+
+Summary: 2 Warnings in processing "netlist create"
+End of log Sat Aug  2 17:34:24 2025
+
+
+# Reading design database from D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint/qcache/LINT/CACHE...completed (0.003 (s)).
+End of log Sat Aug  2 17:34:26 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Aug  2 17:34:27 2025 by DELL on DESKTOP-88UJFGM
+
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Applying Lint Waivers...
+
+Message Summary
+---------------------------------------------------------------------------
+Count  Type     Message ID         Summary
+---------------------------------------------------------------------------
+    2  Warning  elaboration-702    Incomplete sensitivity-list.
+
+Final Process Statistics: Max memory 276MB, CPU time 16s, Total time 18s
+End of log Sat Aug  2 17:34:31 2025
+
+
+Result Summary
+-----------------------------------------------------------
+Error (0)
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Warning (1)
+-----------------------------------------------------------
+  multi_driven_signal                     :1
+
+-----------------------------------------------------------
+Info (2)
+-----------------------------------------------------------
+  comment_not_in_english                  :1
+  multi_ports_in_single_line              :1
+
+-----------------------------------------------------------
+Resolved (0)
+-----------------------------------------------------------
+
+# Generating Debug Information...
+
+=================================================================
+To view results in batch
+  D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint/lint.rpt
+
+To view results in GUI (Beta Version) 
+  qverify D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint/lint.db
+=================================================================

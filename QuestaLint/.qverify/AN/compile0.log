@@ -1,0 +1,13 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 17:33:53 on Aug 02,2025
+vlog D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/parallel_to_serial.v D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/RAM.v D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/Serial_to_Parallel.v D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/SPI_Slave.v D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/SPI_Wrapper.v -work work 
+-- Compiling module parallel_to_serial
+-- Compiling module RAM
+-- Compiling module Serial_to_Parallel
+-- Compiling module SPI_Slave
+-- Compiling module SPI_Wrapper
+
+Top level modules:
+	SPI_Wrapper
+End time: 17:33:53 on Aug 02,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,1 @@
+TraceSignalModule;SPI_Slave;addr_or_data,SPI_Slave_305389387,

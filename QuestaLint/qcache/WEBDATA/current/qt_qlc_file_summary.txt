@@ -1,0 +1,2 @@
+D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/RAM.v#@#2
+D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/SPI_Slave.v#@#1

@@ -1,0 +1,96 @@
+====================================================================================================
+Lint Check Report
+Questa Lint  Version 2021.1 4558100 win64 28-Jan-2021
+
+Timestamp            : Sat Aug  2 17:34:24 2025
+Description          : Report for referring checks count, check violations details, and  design information
+Design               : SPI_Wrapper
+Database             : D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint/lint.db
+Design Quality Score : 99.1%
+
+Sections:
+   Section 1 : Check Summary
+   Section 2 : Check Details
+   Section 3 : Design Information
+====================================================================================================
+
+
+====================================================================================================
+Section 1 : Check Summary
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+---------------
+| Warning (1) |
+---------------
+  multi_driven_signal                     : 1
+
+------------
+| Info (2) |
+------------
+  comment_not_in_english                  : 1
+  multi_ports_in_single_line              : 1
+
+----------------
+| Resolved (0) |
+----------------
+
+
+====================================================================================================
+Section 2 : Check Details
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+
+---------------
+| Warning (1) |
+---------------
+
+Check: multi_driven_signal [Category: Simulation] (1)
+       [Message: Net has multiple drivers. Signal '<signal>', Module '<module>', File '<file>', Line '<line>'.]
+----------------------------------------------------------------------------------------------------------------
+multi_driven_signal: [uninspected] Net has multiple drivers. Signal 'addr_or_data', Module 'SPI_Slave', File 'D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/SPI_Slave.v', Line '90'.
+
+
+
+------------
+| Info (2) |
+------------
+
+Check: comment_not_in_english [Category: Nomenclature Style] (1)
+       [Message: Comments include non-English characters. File '<file>', Line '<line>'.]
+-----------------------------------------------------------------------------------------
+comment_not_in_english: [uninspected] Comments include non-English characters. File 'D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/RAM.v', Line '53'.
+
+
+Check: multi_ports_in_single_line [Category: Rtl Design Style] (1)
+       [Message: Multiple ports are declared in one line. Module '<module>', File '<file>', Line '<line>'.]
+------------------------------------------------------------------------------------------------------------
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'RAM', File 'D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/RAM.v', Line '3'.
+
+
+
+----------------
+| Resolved (0) |
+----------------
+
+
+
+====================================================================================================
+Section 3 : Design Information
+====================================================================================================
+-----------
+| Summary |
+-----------
+  Register Bits                           : 88
+  Latch Bits                              : 3
+  User-specified Blackboxes               : 0
+  Inferred Blackboxes                     : 0
+  Empty Modules                           : 0
+  Unresolved Modules                      : 0
+  Hierarchical IPs                        : 0
+

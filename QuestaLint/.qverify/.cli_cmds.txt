@@ -1,0 +1,27 @@
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 5
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 6
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 7
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/parallel_to_serial.v D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/RAM.v D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/Serial_to_Parallel.v D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/SPI_Slave.v D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/SPI_Wrapper.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 416
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint -l .elab.log  -cli -internal -cmd elab -zdb D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint/qcache/DB/zdb_1 -tool lint -d SPI_Wrapper -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 416
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint -l .createnl.log  -cli -internal -cmd create_netlist -zdb D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint/qcache/DB/zdb_1 -tool lint -d SPI_Wrapper -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 418
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint/qcache/DB/zdb_2 -db D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/QuestaLint/lint.db

@@ -1,0 +1,5 @@
+Serial_to_Parallel_1323019720.aedb:0
+parallel_to_serial_653849815.aedb:14615
+SPI_Slave_305389387.aedb:29845
+RAM_1843997208.aedb:54092
+SPI_Wrapper.aedb:72072

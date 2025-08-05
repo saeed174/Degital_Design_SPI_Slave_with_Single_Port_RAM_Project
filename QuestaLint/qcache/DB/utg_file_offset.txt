@@ -1,0 +1,6 @@
+Serial_to_Parallel_1323019720.utg.db:0
+parallel_to_serial_653849815.utg.db:2840
+SPI_Slave_305389387.utg.db:5639
+RAM_1843997208.utg.db:10068
+SPI_Wrapper_889118838.utg.db:13559
+SPI_Wrapper.utg.db:16480

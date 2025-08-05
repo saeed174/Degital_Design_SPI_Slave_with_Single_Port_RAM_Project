@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Aug  5 01:25:02 2025
+# Process ID: 16076
+# Current directory: F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/project_final/project_final.runs/synth_1
+# Command line: vivado.exe -log SPI_Wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SPI_Wrapper.tcl
+# Log file: F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/project_final/project_final.runs/synth_1/SPI_Wrapper.vds
+# Journal file: F:/digital_design/PROJECTS/PROJECT_2/Degital_Design_SPI_Project/project_final/project_final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SPI_Wrapper.tcl -notrace

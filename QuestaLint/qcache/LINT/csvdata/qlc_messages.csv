@@ -1,0 +1,5 @@
+Index@CheckId@Status@Category@DesignCategory@Severity@FileId@Module@ArgList@ClusterInfo@OldRtlId
+21b5b483@0@uninspected@Simulation@Simulation@Warning@0@"SPI_Slave"@"0:addr_or_data#1:SPI_Slave#2:D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/SPI_Slave.v#"@"0"@""
+f1b7d0a9@1@uninspected@Nomenclature Style@Nomenclature Style@Info@1@""@"0:D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/RAM.v#"@"0"@""
+ca78f81a@2@uninspected@Rtl Design Style@Rtl Design Style@Info@1@"RAM"@"0:RAM#1:D:/Summer2025/Digital_Design/Degital_Design_SPI_Project/RAM.v#"@"0"@""
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Aug  5 07:11:58 2025">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="4fdb39d830a04141a67e5074a9f56576" type="ProjectID"/>
+<property name="ProjectIteration" value="10" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="ReportTimingSummary" value="6" type="JavaHandler"/>
+<property name="ReportUtilization" value="5" type="JavaHandler"/>
+<property name="RunImplementation" value="9" type="JavaHandler"/>
+<property name="RunSchematic" value="4" type="JavaHandler"/>
+<property name="RunSynthesis" value="21" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="8" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="3" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="9" type="JavaHandler"/>
+</item>
+<item name="Gui Handlers">
+<property name="BaseDialog_CANCEL" value="11" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="67" type="GuiHandlerData"/>
+<property name="ClosePlanner_CANCEL" value="3" type="GuiHandlerData"/>
+<property name="ClosePlanner_YES" value="10" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OK" value="1" type="GuiHandlerData"/>
+<property name="ConstraintsChooserPanel_ADD_FILES" value="1" type="GuiHandlerData"/>
+<property name="DesignTimingSumSectionPanel_WORST_NEGATIVE_SLACK" value="1" type="GuiHandlerData"/>
+<property name="FPGAChooser_FPGA_TABLE" value="1" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="48" type="GuiHandlerData"/>
+<property name="GettingStartedView_CREATE_NEW_PROJECT" value="1" type="GuiHandlerData"/>
+<property name="HJFileChooserRecentListPreview_RECENT_DIRECTORIES" value="4" type="GuiHandlerData"/>
+<property name="InstanceMenu_FLOORPLANNING" value="5" type="GuiHandlerData"/>
+<property name="MainMenuMgr_CHECKPOINT" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_CONSTRAINTS" value="3" type="GuiHandlerData"/>
+<property name="MainMenuMgr_EXPORT" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FILE" value="4" type="GuiHandlerData"/>
+<property name="MainMenuMgr_IMPORT" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_IP" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_PROJECT" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TEXT_EDITOR" value="2" type="GuiHandlerData"/>
+<property name="MsgView_CRITICAL_WARNINGS" value="1" type="GuiHandlerData"/>
+<property name="NetlistSchMenuAndMouse_EXPAND_COLLAPSE" value="7" type="GuiHandlerData"/>
+<property name="NetlistSchMenuAndMouse_REPORT_TIMING" value="4" type="GuiHandlerData"/>
+<property name="NetlistSchMenuAndMouse_VIEW" value="13" type="GuiHandlerData"/>
+<property name="PACommandNames_GOTO_NETLIST_DESIGN" value="9" type="GuiHandlerData"/>
+<property name="PAViews_SCHEMATIC" value="1" type="GuiHandlerData"/>
+<property name="PrimitivesMenu_HIGHLIGHT_LEAF_CELLS" value="7" type="GuiHandlerData"/>
+<property name="PrimitivesMenu_SELECT_LEAF_CELLS" value="1" type="GuiHandlerData"/>
+<property name="ProjectNameChooser_CHOOSE_PROJECT_LOCATION" value="1" type="GuiHandlerData"/>
+<property name="ProjectNameChooser_PROJECT_NAME" value="2" type="GuiHandlerData"/>
+<property name="ProjectTab_CLOSE_DESIGN" value="8" type="GuiHandlerData"/>
+<property name="ProjectTab_RELOAD" value="3" type="GuiHandlerData"/>
+<property name="ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE" value="6" type="GuiHandlerData"/>
+<property name="ReportUtilizationDialog_RESULTS_NAME" value="5" type="GuiHandlerData"/>
+<property name="SaveSchematicDialog_SPECIFY_OUTPUT_PDF_FILE" value="12" type="GuiHandlerData"/>
+<property name="SchMenuAndMouse_EXPAND_CONE" value="7" type="GuiHandlerData"/>
+<property name="SchMenuAndMouse_SAVE_AS_PDF_FILE" value="11" type="GuiHandlerData"/>
+<property name="SelectMenu_HIGHLIGHT" value="9" type="GuiHandlerData"/>
+<property name="SelectMenu_MARK" value="10" type="GuiHandlerData"/>
+<property name="SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT" value="5" type="GuiHandlerData"/>
+<property name="TimingDialogUtils_RESULTS_NAME" value="6" type="GuiHandlerData"/>
+<property name="TimingItemFlatTablePanel_TABLE" value="1" type="GuiHandlerData"/>
+</item>
+</section>
+</application>
+</document>
